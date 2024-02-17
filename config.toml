@@ -1,4 +1,35 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
-theme = 'ga-hugo-theme'
+title = 'ZephyrBytes'
+theme = 'spectral'
+
+
+[params]
+fancyTitle = "ZephyrBytes IT Solutions"
+copyright = "ZephyrBytes LLC"
+description = "Practical human-centered solutions for all your IT needs."
+
+[[params.menu.main]]
+url = '/'
+titles = "Home"
+
+[[params.menu.main]]
+url = '/posts/'
+title = "Posts"
+
+[taxonomies]
+    tag = "tags"
+    category = "categories"
+    series = "series"
+
+[params.one]
+enable = true
+title = "I'm Cory, founder of ZephyrBytes"
+body = '''
+Over the past twelve years, my professional journey has been rooted in corporate IT environments, and throughout that
+time, I've discovered a true passion for collaborating directly with key stakeholders and individual users. I founded
+ZephyrBytes with the goal of bringing enterprise-grade IT solutions to small and medium-sized business owners as well
+as individuals.
+'''
+
+[params.two.section]
